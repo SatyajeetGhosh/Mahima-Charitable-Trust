@@ -427,6 +427,81 @@ header nav .nav-links .nav-menu li a:hover{
 
 /* Causes Page Starts */
 
+.main-content .causes-section-1{
+    padding: 1em 3em 4em 3em;
+}
+
+.main-content .causes-section-1 h1{
+    font-family: 'Playball', cursive;
+    font-size: 6vw;
+    margin-bottom: 30px;
+    color: #102542;
+}
+
+.main-content .causes-section-1 .causes-section-1-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    justify-items: center;
+    gap: 1em;
+    margin: auto;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.main-content .causes-section-1 .causes-section-1-container .campaign{
+    padding: 1em;
+    background-color: #068D9D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1em;
+}
+
+.main-content .causes-section-1 .causes-section-1-container .campaign img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1.5em;
+    border-radius: 1em;
+}
+
+.main-content .causes-section-1 .causes-section-1-container .campaign h4{
+    font-family: 'Playball', cursive;
+    font-size: 1.8vw;
+    margin-bottom: 0.5em;
+    color: #102542;
+}
+
+.main-content .causes-section-1 .causes-section-1-container .campaign  p{
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.main-content .causes-section-1 .causes-section-1-container .campaign .btn{
+    display: block;
+    color: #102542;
+    background-color: #FCF7FF;
+    padding: 10px 20px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    border: 3px solid white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 1em;
+}
+
+.main-content .causes-section-1 .causes-section-1-container .campaign .btn:hover{
+    color: #FCF7FF;
+    background-color: #068D9D;
+}
+
 /* Causes Page Ends */
 
 /* Contact Page Starts */
