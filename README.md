@@ -10,6 +10,7 @@
     <li><a href="https://www.w3schools.com/jquery/default.asp">jQuery</a></li>
     <li><a href="https://fonts.google.com/">Google Fonts</a></li>
     <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+    <li><a href="https://realfavicongenerator.net/">Favicon Generator</a></li>
 </ul>
 
 <h2>Contributors</h2>
