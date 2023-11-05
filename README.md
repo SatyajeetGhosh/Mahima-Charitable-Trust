@@ -1,6 +1,5 @@
 <h1>Mahima-Charitable-Trust</h1>
 <p>Built the official website for Mahima Charitable Trust, Bangalore as a part of our Service Learning project in 6th Semester.</p>
-<p><a href="https://satyajeetghosh.github.io/Mahima-Charitable-Trust/">Click here</a> to get a peview or go to https://satyajeetghosh.github.io/Mahima-Charitable-Trust/</p>
 
 <h2>Tools & Technologies Used</h2>
 <ul>
@@ -10,6 +9,7 @@
     <li><a href="https://www.w3schools.com/jquery/default.asp">jQuery</a></li>
     <li><a href="https://fonts.google.com/">Google Fonts</a></li>
     <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+    <li><a href="https://realfavicongenerator.net/">Favicon Generator</a></li>
 </ul>
 
 <h2>Contributors</h2>
