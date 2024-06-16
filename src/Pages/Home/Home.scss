@@ -1,5 +1,5 @@
 .intro-section {
-  padding: 2em 4em 0 4em;
+  padding: 4em 4em 1em 4em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,20 +13,22 @@
   align-self: flex-start;
 }
 
-.intro-text .intro-heading {
-  font-size: 4rem;
-  font-weight: 600;
-  font-family: "Roboto Slab", serif;
-  color: var(--mainPurple);
-  margin-bottom: 0.5em;
+.intro-text {
+  .intro-heading {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Roboto Slab", serif;
+    color: var(--mainPurple);
+    margin-bottom: 0.5em;
+  }
 }
 
 .intro-text {
   .intro-para {
     font-size: 1.2rem;
-    font-weight: 400;
     margin-bottom: 1.5em;
-    width: 400px;
+    width: 500px;
+    line-height: 25px;
   }
 }
 

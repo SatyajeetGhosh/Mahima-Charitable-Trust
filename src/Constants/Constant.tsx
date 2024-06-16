@@ -7,6 +7,11 @@ import mv from "../Assets/Team/mv.jpg";
 import ninan from "../Assets/Team/ninan.jpg";
 import raju from "../Assets/Team/raju.jpg";
 import sabu from "../Assets/Team/sabu.jpg";
+import sunil from "../Assets/Team/sunil.jpg";
+import thomas from "../Assets/Team/thomas.jpg";
+import vilson from "../Assets/Team/vilson.jpg"
+import mm from "../Assets/Team/mm.jpg";
+import noImage from "../Assets/Team/no-image.jpg";
 
 export const StringConstants = {
   
@@ -88,8 +93,38 @@ export const TeamMembers = [
     position: "Founding Member/Trustee",
   },
   {
-    src: ninan,
-    name: "Ninan KG",
+    src: sunil,
+    name: "Sunil Mathew",
     position: "Founding Member/Trustee",
+  },
+  {
+    src: thomas,
+    name: "Thomas",
+    position: "Founding Member/Trustee",
+  },
+  {
+    src: vilson,
+    name: "KJ Vilson",
+    position: "Founding Member/Trustee",
+  },
+  {
+    src: mm,
+    name: "M.M Mathew",
+    position: "Founding Member/Trustee",
+  },
+  {
+    src: noImage,
+    name: "Biju Philip",
+    position: "Trustee",
+  },
+  {
+    src: noImage,
+    name: "Shaji Fredrick",
+    position: "Trustee",
+  },
+  {
+    src: noImage,
+    name: "Shaji Mathew",
+    position: "Trustee",
   },
 ]

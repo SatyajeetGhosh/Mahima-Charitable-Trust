@@ -12,12 +12,6 @@ export const navbarLinks = [
       {
         path: "/",
         element: <Home />,
-        // children: [
-        //   {
-        //     path: "/causes",
-        //     element: <Causes />,
-        //   }
-        // ],
       },
       {
         path: "/about",

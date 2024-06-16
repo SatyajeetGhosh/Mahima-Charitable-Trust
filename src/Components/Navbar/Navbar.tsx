@@ -9,11 +9,9 @@ const Navbar = () => {
     <div className="navbar-container">
       <header>
         <nav>
-          <div className="logo">
-            <NavLink to="/">
-              <img src={MahimaLogo} alt="Mahima Charitable Trust Logo" />
-            </NavLink>
-          </div>
+          <NavLink to="/" className="logo">
+            <img src={MahimaLogo} alt="Mahima Charitable Trust Logo" />
+          </NavLink>
           <div className="hamburger">
             <FaBarsStaggered />
           </div>

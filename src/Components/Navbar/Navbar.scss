@@ -3,7 +3,7 @@ header nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.5em 2em;
-  // background-color: var(--navbarBgColor);
+  background-color: var(--white);
   // background-color: #fff1dd;
   // background-color: rgb(202 247 242);
 }
@@ -22,6 +22,7 @@ header nav .logo {
 }
 
 header nav .logo img {
+  margin: auto;
   width: 100px;
   height: 80px;
 }
@@ -31,7 +32,7 @@ header nav .nav-links-container .nav-menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2em;
+  gap: 3em;
 }
 
 header nav .nav-links-container .nav-menu li a {
