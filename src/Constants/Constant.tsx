@@ -128,3 +128,21 @@ export const TeamMembers = [
     position: "Trustee",
   },
 ]
+
+export const ExMembers = [
+  {
+    src: noImage,
+    name: "Bindu Palackal",
+    position: "Founding Member",
+  },
+  {
+    src: noImage,
+    name: "Boby K Paul",
+    position: "Founding Member",
+  },
+  {
+    src: noImage,
+    name: "Nebu Kurian",
+    position: "Founding Member",
+  },
+]
