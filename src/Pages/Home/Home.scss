@@ -1,0 +1,119 @@
+.intro-section {
+  padding: 2em 4em 0 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #fff1dd;
+  overflow: hidden;
+}
+
+.intro-text {
+  width: 50%;
+  align-self: flex-start;
+}
+
+.intro-text .intro-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+  color: var(--mainPurple);
+  margin-bottom: 0.5em;
+}
+
+.intro-text {
+  .intro-para {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5em;
+    width: 400px;
+  }
+}
+
+.intro-donate-btn {
+  width: 175px;
+  padding: 5px 1em 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid var(--mainBlue);
+  border-radius: 2em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.intro-donate-btn {
+  .heart {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    background-color: var(--mainBlue);
+  }
+}
+
+.intro-donate-btn .heart svg {
+  margin: auto;
+  color: #fff1dd;
+}
+
+.intro-donate-btn p {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: var(--mainBlue);
+  user-select: none;
+}
+
+.mask {
+  position: relative;
+  padding: 0;
+  height: 24px;
+  overflow: hidden;
+}
+
+.link-container {
+  transition: transform 0.3s ease;
+}
+
+.title {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.link-title1 {
+  transform-origin: right center;
+}
+
+.link-title2 {
+  transform-origin: left center;
+  transform: rotate(20deg);
+}
+
+.intro-donate-btn:hover .link-container {
+  transform: translateY(-23px);
+}
+
+.intro-donate-btn:hover .link-title1 {
+  transform: rotate(20deg);
+}
+
+.intro-donate-btn:hover .link-title2 {
+  transform: rotate(0);
+}
+
+.intro-image-container {
+  width: 50%;
+  display: flex;
+}
+
+.intro-image {
+  border-radius: 2em;
+  width: 85%;
+  margin: auto 10px auto auto;
+  z-index: 10;
+}
+
+.wave {
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100..900&display=swap');
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  // font-family: "Roboto Slab", serif;
+  // font-family: "Hind Siliguri", sans-serif;
+}
+
+:root{
+  --bgColor: #fcf7ff;
+  --navbarBgColor: #faf3f0; 
+  --mainBlue: #102542;
+  --deepBlue: #0c192d;
+  --white: #ffffff;
+  --mainGrey: #d1d1d1;
+  --cardBgColor: #f4f0eb;
+  --mainGreen: #0a97a1;
+  --mainPurple: #212158;
+}

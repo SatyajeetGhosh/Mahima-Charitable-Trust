@@ -1,0 +1,26 @@
+.team-card-container{
+  width: 200px;
+  background-color: yellow;
+  border-radius: 0 0 4em 0;
+}
+
+.team-card-container {
+  .member-image{
+    width: 100%;
+
+  }  
+}
+
+.team-card-container{
+  .member-details{
+    padding: 10px;
+  }
+}
+
+.team-card-container{
+  .member-details{
+    .position{
+      font-size: 0.8rem;
+    }
+  }
+}

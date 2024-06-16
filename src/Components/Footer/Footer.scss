@@ -1,0 +1,89 @@
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content{
+  width: 100%;
+  padding: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3em;
+  background-color: var(--mainBlue);
+  color: var(--mainGrey);
+}
+
+.address-container, .tax-exemption-container, .quick-links-container{
+  flex: 1 1 350px;
+  max-width: 600px;
+}
+
+.address-content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 1.5em;
+}
+
+.col-heading{
+  color: var(--white);
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 600;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+}
+
+.details-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.details{
+  width: 50px;
+}
+
+.social-media{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+}
+
+.social-media-handle{
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  color: var(--mainBlue);
+  background-color: var(--bgColor);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.social-media-handle:hover{
+  transform:translateY(-3px);
+}
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 0.5em;
+  color: var(--cardBgColor);
+  background-color: var(--deepBlue);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 376px) {
+
+}
