@@ -1,4 +1,5 @@
 import React from "react";
+import { Button, Form, Input } from "antd";
 
 const Contact = () => {
   return (
@@ -36,6 +37,50 @@ const Contact = () => {
                 Others
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="contact-section">
+        <div className="contact-form">
+          <h2>Get In Touch</h2>
+          <Form>
+            <div>
+              <Form.Item
+                name="name"
+                rules={[{ required: true, message: "Please enter your Name" }]}
+              >
+                <Input placeholder={"Name"} />
+              </Form.Item>
+              <Form.Item
+                name="email"
+                rules={[{ required: true, message: "Please enter your Email" }]}
+              >
+                <Input placeholder={"Email"} />
+              </Form.Item>
+            </div>
+            <Form.Item
+              name="name"
+              rules={[{ required: true, message: "Please enter Subject" }]}
+            >
+              <Input placeholder={"Subject"} />
+            </Form.Item>
+            <Form.Item
+              name="message"
+              rules={[{ required: true, message: "Please enter your Message" }]}
+            >
+              <Input.TextArea placeholder={"Message"} rows={4} />
+            </Form.Item>
+            <Form.Item>
+              <Button type="primary" htmlType="submit">
+                Submit
+              </Button>
+            </Form.Item>
+          </Form>
+        </div>
+        <div className="trust-details">
+          <h2>Contact Us</h2>
+          <div>
+            
           </div>
         </div>
       </section>
