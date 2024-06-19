@@ -1,0 +1,23 @@
+.contact-container{
+  display: flex;
+  flex-direction: column;
+
+  .contact-section{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 1000px;
+    width: 100%;
+    background-color: var(--white);
+    padding: 2em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 12px;
+
+    .contact-form, .trust-details{
+      width: 49%;
+    }
+  }
+}
