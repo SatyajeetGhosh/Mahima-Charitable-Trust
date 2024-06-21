@@ -3,7 +3,7 @@
   flex-direction: column;
 
   .contact-section{
-    margin: auto;
+    margin: auto auto 2em auto;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -18,6 +18,17 @@
 
     .contact-form, .trust-details{
       width: 49%;
+
+      .contact-form-right{
+        .mahima-details-container{
+          .mahima-details{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 1.5em;
+          }
+        }
+      }
     }
   }
 }

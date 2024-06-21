@@ -82,7 +82,7 @@ const Contact = () => {
         </div>
         <div className="trust-details">
           <h2 className="contact-sub-heading">Contact Us</h2>
-          <div>
+          <div className="contact-form-right">
             <div className="google-maps-container">
               <iframe
                 title="Mahima Map"
